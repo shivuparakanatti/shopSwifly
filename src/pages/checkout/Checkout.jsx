@@ -43,7 +43,6 @@ const totalAmount = items.reduce((acc,ele)=>{
  
 
 
-
 function writeUserData(userId, name, email, items,address) {
   const db = getDatabase();
   set(ref(db, `users/${userId}/${uId}`), {
