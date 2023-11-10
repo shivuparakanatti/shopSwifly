@@ -100,7 +100,7 @@ useEffect(()=>{
       navigate('/login')
       
     }
-    //const confirmation = confirm("Are you sure, You want to pay" +100)
+
    
 
     
