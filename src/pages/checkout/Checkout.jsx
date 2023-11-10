@@ -5,7 +5,6 @@ import { useCart } from 'react-use-cart';
 import { getDatabase, ref, set } from "firebase/database";
 import { useSelector } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { Button, Popover } from "keep-react";
 
 
 
@@ -14,7 +13,6 @@ const Checkout = () => {
   const user= useSelector(state=>{
     return state.auth
   })
-  console.log(user)
 
   const date = Date()
   
@@ -68,7 +66,6 @@ useEffect(()=>{
       writeUserData(user.userID,user.userName,user.email,items,address)
     
     
-
 }
 })
 
