@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow{
+    box-shadow: 14px 24px 5px -7px rgba(0,0,0,0.54);
+
+}
+
+@keyframes borderSlide {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: full;
+  }
+}
+
+.animated-border {
+  animation: borderSlide 0.5s linear;
+}
+
+  .aws-btn {
+
+    --slider-height-percentage: 60%;
+    --slider-transition-duration: 670ms;
+    --organic-arrow-thickness: 6px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 40px;
+    --organic-arrow-color: #8b9db1;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #a3b9d0;
+    --control-bullet-active-color: #8b9db1;
+    --loader-bar-color: #851515;
+    --loader-bar-height: 6px;
+    }
+  
